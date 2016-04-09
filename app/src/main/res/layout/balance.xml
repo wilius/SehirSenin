@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_margin="@dimen/list_view_margin"
+    android:background="@drawable/shadow"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="20sp"
+    android:paddingStart="20sp">
+
+    <TextView
+        android:id="@+id/balanceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:text="@string/your_balance"
+        android:textColor="@color/primary_material_dark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/claret_red"
+        android:textSize="23sp" />
+
+    <ImageButton
+        android:id="@+id/add_card_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+
+        android:src="@drawable/ic_add_black_36dp" />
+</LinearLayout>

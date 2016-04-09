@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sehir Senin!</string>
+    <string name="db_version">556u</string>
+
+    <string name="no_bus">There is no bus oncoming to you</string>
+    <string name="near_buses_header">Select station</string>
+    <string name="got_location">Detecting location</string>
+    <string name="location_not_detected">Location couldn\'t detect.</string>
+    <string name="my_location">My location</string>
+    <string name="any_bus">There is no bus that stop selected station</string>
+    <string name="add_card_title">Add Card</string>
+    <string name="my_card">My card</string>
+    <string name="enter_card_number">Enter card number</string>
+    <string name="card_name_null">Card name can not empty</string>
+    <string name="card_number_not_null">Card number can not empty</string>
+    <string name="card_number_exists">Card with number \'%s\' already exists</string>
+    <string name="card_name_exists">Card with name \'%s\' already exists</string>
+    <string name="card_list">Your cards</string>
+    <string name="no_defined_card">Touch to define card</string>
+    <string name="balance_querying">Balance result inprogress..</string>
+    <string name="your_balance">Balance : </string>
+    <string name="bus_list_row_item_min">"%s min "</string>
+    <string name="loading">Loading..</string>
+    <string name="select_bus_stop_to_see_bus_list">To see list of buses that stop at current bus stop, select any of it from map</string>
+    <string name="bus_stop_bus_list_inform">*Listed bus lines above, stops at selected bus stop.</string>
+    <string name="search_line">Search line..</string>
+    <string name="no_matched_line">There is no matched line for \'%s\'</string>
+    <string name="departure_times">Depature Times</string>
+    <string name="line_path">Line Path</string>
+    <string name="departure">Departure</string>
+    <string name="comeback">Comeback</string>
+
+
+    <string name="weekdays">Weekdays</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="day_info_text">You see %s departure times</string>
+    <string name="gps_required">Location detection is disabled. To work, enable it</string>
+    <string name="no_voyage">There is no voyage at %s</string>
+    <string name="select_day">Select a day</string>
+    <string name="grant_permissions">Requested permissions are required to work properly. If you want to use application, please grant requested permissions</string>
+    <string name="mark_as_favorited">Station \'%s\' marked as starred</string>
+    <string name="remove_favorite">Station \'%s\' removed from favorites</string>
+    <string name="reached_max_starred_station">Max favorite station amount is %s</string>
+    <string name="station_favorite_in_progress">Station favorite functionality is in progress yet</string>
+    <string name="location_supplier_not_found">Cannot found any location supplier</string>
+</resources>

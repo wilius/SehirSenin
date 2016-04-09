@@ -1,0 +1,5 @@
+include ':app', ':menudrawer', ':ranti_app'
+project(':menudrawer').projectDir = new File('libs/menudrawer')
+
+project(':ranti_app').projectDir = new File('../lib/ranti_app')
+

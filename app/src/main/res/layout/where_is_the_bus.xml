@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/claret_red"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <org.alexiwilius.sehirsenin.view.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <org.alexiwilius.sehirsenin.view.BalanceView
+        android:id="@+id/balance_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_view"
+        android:layout_marginBottom="@dimen/list_view_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <org.alexiwilius.sehirsenin.view.BusListView
+        android:id="@+id/bus_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/balance_view"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <LinearLayout
+        android:id="@+id/search_result_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_view"
+        android:background="@drawable/shadow_bottom"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ListView
+            android:id="@+id/search_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff" />
+
+        <TextView
+            android:id="@+id/search_empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text=""
+            android:textSize="@dimen/secondary_text_size"
+            android:textStyle="italic" />
+    </LinearLayout>
+</RelativeLayout>

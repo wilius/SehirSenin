@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_bus">Yaklaşan otobüs bulunmuyor</string>
+    <string name="near_buses_header">Durak seçin</string>
+    <string name="got_location">Konumunuz alınıyor</string>
+    <string name="location_not_detected">Konumunuz saptanamadı</string>
+    <string name="my_location">Konumum</string>
+    <string name="any_bus">Seçilen durakta hiçbir otobüs durmamaktadır</string>
+    <string name="add_card_title">Kart Ekle</string>
+    <string name="my_card">Kartım</string>
+    <string name="enter_card_number">Kart numaranızı giriniz</string>
+    <string name="card_name_null">Kart adı boş olamaz</string>
+    <string name="card_number_not_null">Kart numarası boş olamaz</string>
+    <string name="card_number_exists">\'%s\' numaralı kart zaten mevcut</string>
+    <string name="card_name_exists">\'%s\' isminde bir kart zaten mevcut</string>
+    <string name="card_list">Kartlarınız</string>
+    <string name="no_defined_card">Kart tanımlama</string>
+    <string name="balance_querying">Bakiye Sorgulanıyor..</string>
+    <string name="your_balance">Bakiyeniz :</string>
+    <string name="app_name">Sehir Senin!</string>
+    <string name="db_version">556u</string>
+    <string name="bus_list_row_item_min">"%s dk "</string>
+    <string name="loading">Yükleniyor..</string>
+    <string name="select_bus_stop_to_see_bus_list">Duraktan geçen otobüs listesini görmek için haritadan durak seçin</string>
+    <string name="bus_stop_bus_list_inform">*Listelenen otobüsler bu durakta durmaktadır</string>
+    <string name="search_line">Otobüs arama..</string>
+    <string name="no_matched_line">\'%s\' için otobüs bulunamadı</string>
+    <string name="line_path">Güzergah</string>
+    <string name="departure_times">Hareket Saatleri</string>
+    <string name="departure">Gidiş</string>
+    <string name="comeback">Dönüş</string>
+    <string name="saturday">Cumartesi</string>
+    <string name="sunday">Pazar</string>
+    <string name="weekdays">Hafta içi</string>
+    <string name="day_info_text">%s hareket saatleri görüntüleniyor</string>
+    <string name="gps_required">Konum servisleri kapalıdır. Uygulamanın çalışması için aktifleştiriniz</string>
+    <string name="no_voyage">Hattın %s günü seferi yoktur</string>
+    <string name="select_day">Gün seçiniz</string>
+    <string name="grant_permissions">Requested permissions are required to work properly. If you want to use application, please grant requested permissions</string>
+    <string name="mark_as_favorited">\'%s\' durağı favori olarak eklendi</string>
+    <string name="remove_favorite">%s durağı favorilerden çıkarıldı</string>
+    <string name="reached_max_starred_station">En fazla %s adet favori durak eklenebilir</string>
+    <string name="station_favorite_in_progress">Durakları favori olarak ekleme henüz geliştirim aşamasındadır</string>
+    <string name="location_supplier_not_found">Konum sağlayıcı bulunamadı</string>
+</resources>

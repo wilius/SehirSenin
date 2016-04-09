@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="claret_red">#c23636</color>
+    <color name="claret_red_window">#9E4040</color>
+    <color name="light_red">#FDD5D1</color>
+    <color name="dark_yellow">#FFCC33</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="secondary_text_white">#ffffff</color>
+    <color name="primary_material_dark">#212121</color>
+    <color name="accent_material_light">#009688</color>
+    <color name="accent_material_dark">#ff80cbc4</color>
+
+    <color name="transparency_color">#77ffffff</color>
+    <color name="search_primary_color">#bbffffff</color>
+    <color name="primaryColor">#FAFAFA</color>
+
+    <color name="textPrimaryColor">#828282</color>
+    <color name="textHintColor">#FAFAFA</color>
+
+    <color name="rippleEffectMaskColor">#FAFAFA</color>
+    <color name="rippleEffectWaveColor">#bbbbbb</color>
+
+    <color name="ColorPrimary">#00897B</color>
+    <color name="ColorPrimaryDark">#00695C</color>
+    <color name="tabsScrollColor">#404040</color>
+</resources>
